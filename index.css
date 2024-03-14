@@ -1,0 +1,273 @@
+/* responsive */
+
+@media only screen and (max-width: 1525px) {
+    .welcome-section .welcome-txt {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 300px;
+        height: 100px;
+    }
+
+    .card-heading {
+        font-size: 18px;
+    }
+
+    .card-txt {
+        font-size: 16px;
+    }
+
+    .bio-profile-pic {
+        width: 160px;
+        height: 160px;
+    }
+
+    .bio-heading {
+        font-size: 20px;
+    }
+
+    .profile-txt {
+        font-size: 18px;
+    }
+
+    .bio-data-heading {
+        font-size: 20px;
+    }
+
+    .personal-data {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1525px) {
+    .bio-pic {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .welcome-section {
+        height: 310px;
+    }
+
+    .welcome-txt {
+        display: block;
+        position: relative;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .bio-pic {
+        width: 320px;
+    }
+
+    .bio-section {
+        gap: 0;
+    }
+
+    .bio-pic {
+        border-radius: 15px 0 0 15px;
+        -webkit-box-shadow: -3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: -3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: -3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    .bio-data {
+        border-radius: 0px 15px 15px 0;
+        -webkit-box-shadow: 3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: 3px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .no-scroll {
+        height: 100%;
+        overflow-y: hidden;
+    }
+
+    .close {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 10px;
+        top: 10px;
+        display: block;
+    }
+
+    .sidebar {
+        position: absolute;
+        height: 100vh;
+        transform: translateX(-250px);
+        display: none;
+    }
+
+    .sidebar-open {
+        transform: translateX(0);
+        display: flex;
+    }
+
+    .blur-active {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .app {
+        min-height: 1150px;
+    }
+
+    .bio-section {
+        flex-direction: column;
+    }
+
+    .bio-pic {
+        padding: 70px 0 0 0;
+        width: 100%;
+        flex-direction: row;
+        border-radius: 15px 15px 0 0;
+        -webkit-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    .bio-data {
+        border-radius: 0 0 15px 15px;
+        -webkit-box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    .personal-details {
+        border-radius: 0 0 15px 15px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .app {
+        min-height: 1030px;
+    }
+
+    .welcome-section .welcome-txt {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 270px;
+        height: 70px;
+        padding-bottom: 10px;
+    }
+
+    .card-heading {
+        font-size: 16px;
+    }
+
+    .card-txt {
+        margin-right: 35px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .search-bar,
+    .dark-theme-btn,
+    .notification-btn {
+        display: none;
+    }
+
+    .avatar:hover .dropdown {
+        display: flex;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .welcome-section .welcome-txt {
+        font-size: 18px;
+    }
+
+    .cards {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .bio-data-heading {
+        font-size: 18px;
+    }
+
+    .profile-txt {
+        font-size: 17px;
+    }
+
+    .bio-profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bio-data-heading {
+        font-size: 18px;
+    }
+
+    .personal-data {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .app {
+        min-height: 1400px;
+    }
+
+    .bio-heading {
+        font-size: 18px;
+    }
+
+    .profile-txt {
+        font-size: 16px;
+    }
+
+    .bio-section {
+        gap: 10px;
+    }
+
+    .bio-data {
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    .bio-pic {
+        padding-bottom: 40px;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.2);
+    }
+
+    .personal-details {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .ad {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .menu-txt {
+        display: none;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
