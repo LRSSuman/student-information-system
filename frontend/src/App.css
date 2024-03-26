@@ -66,12 +66,12 @@ body {
 
 @media only screen and (max-width: 700px) {
     .app {
-        min-height: 1030px;
+        min-height: 1050px;
     }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 575px) {
     .app {
-        min-height: 1250px;
+        min-height: 1220px;
     }
 }

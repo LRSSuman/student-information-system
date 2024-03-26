@@ -1,28 +1,29 @@
 .personal-details {
     background: var(--section);
-    padding: 20px 20px 20px 60px;
+    height: 370px;
+    width: 100%;
+    padding: 0 20px 20px 60px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .personal-data {
+    width: 50%;
     display: flex;
     font-size: 20px;
     margin-top: 40px;
 }
 
 .personal-data .title {
+    min-width: max-content;
     color: var(--font-bold);
 }
 
 .personal-data .data {
     color: var(--font-light);
-}
-
-.address {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /* responsive */
@@ -44,23 +45,17 @@
     }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 575px) {
     .personal-details {
+        height: 530px;
         padding: 0 20px 20px 60px;
         flex-direction: column;
+        flex-wrap: nowrap;
         align-items: start;
     }
 
     .personal-data {
+        width: 100%;
         margin-top: 30px;
-    }
-
-    .title {
-        min-width: max-content;
-    }
-
-    .address {
-        display: flex;
-        flex-wrap: wrap;
     }
 }

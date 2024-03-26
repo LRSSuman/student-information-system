@@ -1,6 +1,16 @@
-import { cardData } from '../../data/data';
+import { useEffect, useState } from 'react';
+import { studentCardData, teacherCardData } from '../../data/data';
 import './Card.css';
+import { getRoutePath } from '../../utils/getRoutePath';
 const Card = () => {
+    const [cardData, setCardData] = useState([]);
+    useEffect(() => {
+        if (getRoutePath() === '/student/home') {
+            setCardData(studentCardData);
+        } else if (getRoutePath() === '/teacher/home') {
+            setCardData(teacherCardData);
+        }
+    }, []);
     return (
         <div className='cards'>
             {cardData.map((card) => {

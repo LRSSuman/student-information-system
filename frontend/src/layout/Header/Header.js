@@ -42,9 +42,6 @@ const Header = () => {
                 <div className='menu-txt'>Home</div>
             </div>
             <div className='content-top-right'>
-                <div className='search-bar'>
-                    <input type='text' placeholder=' search here...' />
-                </div>
                 <div
                     className='avatar'
                     onClick={() => dispatch(setToggleDropdown())}
@@ -62,12 +59,9 @@ const Header = () => {
                     ) : null}
                     <ul className={`dropdown ${dropdown}`}>
                         <li>
-                            <div className='dropdown-icon'>
-                                <img src={icons.search} alt='search' />
-                            </div>
-                            <div className='dropdown-txt'>search</div>
+                            <div className='dropdown-txt'>Log Out</div>
                         </li>
-                        <li>
+                        {/* <li>
                             <div className='dropdown-icon'>
                                 <img src={icons.gear} alt='darktheme' />
                             </div>
@@ -78,15 +72,16 @@ const Header = () => {
                                 <img src={icons.bell} alt='notification' />
                             </div>
                             <div className='dropdown-txt'>notification</div>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
-                <div className='dark-theme-btn'>
+                <button className='logout-btn'>Log Out</button>
+                {/* <div className='dark-theme-btn'>
                     <img src={icons.gear} alt='dark-theme' />
                 </div>
                 <div className='notification-btn'>
                     <img src={icons.bell} alt='notification' />
-                </div>
+                </div> */}
             </div>
         </div>
     );

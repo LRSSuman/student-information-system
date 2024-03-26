@@ -5,6 +5,7 @@ import Sidebar from './layout/sidebar/Sidebar';
 import { setToggleSidebar } from './store/Slices/sidebarSlice';
 import { useEffect } from 'react';
 import { getRoutePath } from './utils/getRoutePath';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
     const dispatch = useDispatch();
@@ -18,16 +19,24 @@ function App() {
             document.body.style.overflow = 'scroll';
         }
     }, [scroll]);
+
+    const { pageNotFound } = useSelector((state) => {
+        return state.pageNotFound;
+    });
     return (
         <div className='app'>
-            {getRoutePath() === '/' ? null : <Sidebar />}
-            <Content />
-            <div
-                className={`blur-screen ${blur}`}
-                onClick={() => {
-                    dispatch(setToggleSidebar());
-                }}
-            ></div>
+            <BrowserRouter>
+                {getRoutePath() === '/' ? null : pageNotFound ? null : (
+                    <Sidebar />
+                )}
+                <Content />
+                <div
+                    className={`blur-screen ${blur}`}
+                    onClick={() => {
+                        dispatch(setToggleSidebar());
+                    }}
+                ></div>
+            </BrowserRouter>
         </div>
     );
 }

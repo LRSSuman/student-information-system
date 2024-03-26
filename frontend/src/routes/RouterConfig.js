@@ -1,25 +1,19 @@
 export const STUDENT_ROUTES = {
-    Home: '/student',
-    Teacher: '/teacher',
-    Subject: '/subject',
-    TimeTable: '/timetable',
-    Events: '/events',
-    Fees: '/fees',
-    Circular: '/Circular',
+    Home: 'home',
+    Teachers: 'teachers',
+    Subjects: 'subjects',
+    TimeTable: 'timetable',
 };
 
 export const TEACHER_ROUTES = {
-    Home: '/teacher',
-    Student: '/student',
-    Subject: '/subject',
-    TimeTable: '/timetable',
-    Events: '/events',
-    Fees: '/fees',
-    Circular: '/Circular',
+    Home: 'home',
+    Students: 'students',
+    Subjects: 'subjects',
+    TimeTable: 'timetable',
 };
 
-export const ADMIN_ROUTES = {
-    Home: '/admin',
-    Teacher: '/teacher',
-    TimeTable: '/timetable',
-};
+// export const ADMIN_ROUTES = {
+//     Home: '/admin',
+//     Teacher: '/teacher',
+//     TimeTable: '/timetable',
+// };

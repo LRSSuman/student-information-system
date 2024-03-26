@@ -1,5 +1,8 @@
 import './Sidebar.css';
-import { navigationLinks } from '../../data/data';
+import {
+    studentNavigationLinks,
+    teacherNavigationLinks,
+} from '../../data/data';
 import { icons, images } from '../../utils/images';
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
@@ -7,14 +10,31 @@ import {
     setSidebarClose,
     setToggleSidebar,
 } from '../../store/Slices/sidebarSlice';
+import { NavLink } from 'react-router-dom';
+import { getRoutePath } from '../../utils/getRoutePath';
 
 const Sidebar = () => {
+    const [navLinks, setNavLinks] = useState([]);
+
     const dispatch = useDispatch();
     const [sidebarToggleClass, setSidebarToggleClass] = useState('');
 
     const { toggleSidebar, isSidebarClose } = useSelector((state) => {
         return state.sidebar;
     });
+
+    useEffect(() => {
+        if (getRoutePath() == '/student/home') {
+            setNavLinks(studentNavigationLinks);
+        } else if (
+            getRoutePath() == '/teacher/home' ||
+            '/teacher/students' ||
+            '/teacher/subjects' ||
+            '/teacher/timetable'
+        ) {
+            setNavLinks(teacherNavigationLinks);
+        }
+    }, []);
 
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -60,8 +80,19 @@ const Sidebar = () => {
             </div>
             <div className='nav-links'>
                 <ul>
-                    {navigationLinks.map((navlink) => {
-                        return <li key={navlink.id}>{navlink.title}</li>;
+                    {navLinks.map((navlink) => {
+                        return (
+                            <li key={navlink.id}>
+                                <NavLink
+                                    className={({ isActive }) => {
+                                        return isActive ? 'active' : null;
+                                    }}
+                                    to={navlink.navigation}
+                                >
+                                    {navlink.title}
+                                </NavLink>
+                            </li>
+                        );
                     })}
                 </ul>
             </div>

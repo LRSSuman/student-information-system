@@ -105,6 +105,14 @@
     height: 20px;
 }
 
+.logout-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--sky-blue);
+    color: var(--font-bold);
+}
+
 .dropdown-icon {
     width: 20px;
     height: 20px;
@@ -116,8 +124,8 @@
     right: 0px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    height: 140px;
+    gap: 20px;
+    height: 100px;
     width: 200px;
     padding: 10px;
     border-radius: 0 0 15px 15px;

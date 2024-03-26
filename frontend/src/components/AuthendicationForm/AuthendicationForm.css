@@ -1,0 +1,36 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+
+form input {
+    padding: 20px;
+    width: 450px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 15px;
+    background: var(--search-bar);
+    outline: none;
+    font-size: 18px;
+}
+
+form input[type='date'] {
+    color: rgb(118, 117, 117);
+    font-weight: 500;
+}
+
+form input::placeholder {
+    font-size: 18px;
+}
+
+.submit-btn {
+    width: 450px;
+    color: var(--font-bold);
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    background: var(--sky-blue);
+    font-size: 18px;
+    cursor: pointer;
+}
