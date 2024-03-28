@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { STUDENT_ROUTES, TEACHER_ROUTES } from './RouterConfig';
+import { ADMIN_ROUTES, STUDENT_ROUTES, TEACHER_ROUTES } from './RouterConfig';
 import StudentHomePage from '../Pages/Student/StudentHomePage/StudentHomePage';
 import TeacherPage from '../Pages/Student/TeachersPage/TeacherPage';
 import SubjectPage from '../Pages/Student/SubjectPage/SubjectPage';
@@ -9,6 +9,10 @@ import AuthendicationPage from '../Pages/Authendication/AuthendicationPage';
 import PageNotFound from '../Pages/404Page/PageNotFound';
 import TeacherHomePage from '../Pages/Teacher/TeacherHomePage/TeacherHomePage';
 import StudentsPage from '../Pages/Teacher/StudentsPage/StudentsPage';
+import AdminStudentsPage from '../Pages/Admin/studentsPage/AdminStudentsPage';
+import AdminTeachersPage from '../Pages/Admin/teachersPage/AdminTeachersPage';
+import AdminSubjectsPage from '../Pages/Admin/subjectsPage/AdminSubjectsPage';
+import AdminTimeTablePage from '../Pages/Admin/timetablePage/AdminTimetablePage';
 
 const Router = () => {
     return (
@@ -57,6 +61,24 @@ const Router = () => {
                 </Route>
 
                 {/* admin routes */}
+                <Route path='/admin'>
+                    <Route
+                        path={ADMIN_ROUTES.Students}
+                        element={<AdminStudentsPage />}
+                    />
+                    <Route
+                        path={ADMIN_ROUTES.Teachers}
+                        element={<AdminTeachersPage />}
+                    />
+                    <Route
+                        path={ADMIN_ROUTES.Subjects}
+                        element={<AdminSubjectsPage />}
+                    />
+                    <Route
+                        path={ADMIN_ROUTES.TimeTable}
+                        element={<AdminTimeTablePage />}
+                    />
+                </Route>
             </Routes>
         </>
     );

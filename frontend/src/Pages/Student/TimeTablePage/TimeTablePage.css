@@ -16,3 +16,34 @@
 .timetable-subject-name {
     margin-top: 10px;
 }
+
+.years {
+    margin-top: 15px;
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    /* bottom: 10px; */
+    justify-content: space-around;
+    /* height: 20px; */
+    background: var(--sky-blue);
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: var(--font-bold);
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.year-btn {
+    margin-left: 15px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background: #cfecf6;
+    /* background: var(--sky-blue); */
+    font-size: 18px;
+    color: var(--font-bold);
+    cursor: pointer;
+    text-align: center;
+    transform: skewX(-10deg);
+}

@@ -2,6 +2,7 @@ import './Sidebar.css';
 import {
     studentNavigationLinks,
     teacherNavigationLinks,
+    adminNavigationLinks,
 } from '../../data/data';
 import { icons, images } from '../../utils/images';
 import { useEffect, useState } from 'react';
@@ -24,9 +25,15 @@ const Sidebar = () => {
     });
 
     useEffect(() => {
-        if (getRoutePath() == '/student/home') {
+        if (
+            getRoutePath() == '/student/home' ||
+            '/student/teachers' ||
+            '/student/subjects' ||
+            '/student/timetable'
+        ) {
             setNavLinks(studentNavigationLinks);
-        } else if (
+        }
+        if (
             getRoutePath() == '/teacher/home' ||
             '/teacher/students' ||
             '/teacher/subjects' ||
@@ -34,7 +41,17 @@ const Sidebar = () => {
         ) {
             setNavLinks(teacherNavigationLinks);
         }
+        if (
+            getRoutePath() == '/admin/students' ||
+            '/admin/teachers' ||
+            '/admin/subjects' ||
+            '/admin/timetable'
+        ) {
+            setNavLinks(adminNavigationLinks);
+        }
     }, []);
+
+    console.log(navLinks);
 
     useEffect(() => {
         window.addEventListener('resize', () => {

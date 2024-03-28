@@ -1,6 +1,14 @@
 import { getRoutePath } from '../../utils/getRoutePath';
 import './DataList.css';
-const DataList = ({ icon, name, additional, btnValue, email, dept }) => {
+const DataList = ({
+    icon,
+    name,
+    additional,
+    btnValue,
+    email,
+    dept,
+    isAdmin,
+}) => {
     console.log(getRoutePath());
     return (
         <li>
@@ -15,6 +23,10 @@ const DataList = ({ icon, name, additional, btnValue, email, dept }) => {
                             getRoutePath() == '/teacher/subjects'
                                 ? 'no-bd-rs'
                                 : null
+                        } ${
+                            getRoutePath() == '/admin/subjects'
+                                ? 'no-bd-rs'
+                                : null
                         }`}
                     >
                         <img src={icon} alt='profile' />
@@ -24,10 +36,39 @@ const DataList = ({ icon, name, additional, btnValue, email, dept }) => {
                         <div className='data-list-data-txt'>{email}</div>
                     </div>
                 </div>
-
                 <div className='data-list-data-txt'>{dept}</div>
                 <div className='data-list-data-txt'>{additional}</div>
-                <button className='view-btn'>{btnValue}</button>
+                {isAdmin ? (
+                    <>
+                        <div className='admin-btns'>
+                            {btnValue === 'View' ? (
+                                <button className='admin-btn view-btn'>
+                                    {btnValue}
+                                </button>
+                            ) : btnValue === 'Download' ? (
+                                <button className='admin-btn view-btn'>
+                                    {btnValue}
+                                </button>
+                            ) : null}
+                            <button className='admin-btn edit-btn'>edit</button>
+                            <button className='admin-btn delete-btn'>
+                                delete
+                            </button>
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        {btnValue === 'View' ? (
+                            <button className='admin-btn view-btn'>
+                                {btnValue}
+                            </button>
+                        ) : btnValue === 'Download' ? (
+                            <button className='admin-btn view-btn'>
+                                {btnValue}
+                            </button>
+                        ) : null}
+                    </>
+                )}
             </div>
         </li>
     );

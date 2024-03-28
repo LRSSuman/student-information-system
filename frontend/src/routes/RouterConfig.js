@@ -12,8 +12,9 @@ export const TEACHER_ROUTES = {
     TimeTable: 'timetable',
 };
 
-// export const ADMIN_ROUTES = {
-//     Home: '/admin',
-//     Teacher: '/teacher',
-//     TimeTable: '/timetable',
-// };
+export const ADMIN_ROUTES = {
+    Students: 'students',
+    Teachers: 'teachers',
+    Subjects: 'subjects',
+    TimeTable: 'timetable',
+};

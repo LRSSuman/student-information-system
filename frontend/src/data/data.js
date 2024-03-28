@@ -14,6 +14,12 @@ export const teacherNavigationLinks = [
     { id: 3, title: 'Subjects', navigation: '/teacher/subjects' },
     { id: 4, title: 'Time Table', navigation: '/teacher/timetable' },
 ];
+export const adminNavigationLinks = [
+    { id: 1, title: 'Students', navigation: '/admin/students' },
+    { id: 2, title: 'teachers', navigation: '/admin/teachers' },
+    { id: 3, title: 'Subjects', navigation: '/admin/subjects' },
+    { id: 4, title: 'Time Table', navigation: '/admin/timetable' },
+];
 
 export const studentPersonalDetails = [
     {
@@ -152,12 +158,54 @@ export const teacherCardData = [
 ];
 
 export const teacherList = [
-    { id: '1', dp: images.profile, name: 'john', role: 'incharge' },
-    { id: '2', dp: images.profile, name: 'wick', role: 'staff' },
-    { id: '3', dp: images.profile, name: 'spider', role: 'staff' },
-    { id: '4', dp: images.profile, name: 'man', role: 'staff' },
-    { id: '5', dp: images.profile, name: 'hulk', role: 'staff' },
-    { id: '6', dp: images.profile, name: 'thor', role: 'staff' },
+    {
+        id: '1',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'john',
+        role: 'incharge',
+        email: 'alicedoe@gmail.com',
+    },
+    {
+        id: '2',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'wick',
+        role: 'staff',
+        email: 'alicedoe@gmail.com',
+    },
+    {
+        id: '3',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'spider',
+        role: 'staff',
+        email: 'alicedoe@gmail.com',
+    },
+    {
+        id: '4',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'man',
+        role: 'staff',
+        email: 'alicedoe@gmail.com',
+    },
+    {
+        id: '5',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'hulk',
+        role: 'staff',
+        email: 'alicedoe@gmail.com',
+    },
+    {
+        id: '6',
+        dp: images.profile,
+        dept: 'cse',
+        name: 'thor',
+        role: 'staff',
+        email: 'alicedoe@gmail.com',
+    },
 ];
 
 export const studentList = [
@@ -212,9 +260,39 @@ export const studentList = [
 ];
 
 export const subjectList = [
-    { id: '1', dp: icons.subject, name: 'physics', year: '1st year' },
-    { id: '2', dp: icons.subject, name: 'english', year: '2nd year' },
-    { id: '3', dp: icons.subject, name: 'chemistry', year: '3rd year' },
-    { id: '4', dp: icons.subject, name: 'computer', year: '4th year' },
-    { id: '5', dp: icons.subject, name: 'tamil', year: '1st year' },
+    {
+        id: '1',
+        dp: icons.subject,
+        name: 'ph3151',
+        email: 'engineering-physics',
+        year: '1st year',
+    },
+    {
+        id: '2',
+        dp: icons.subject,
+        name: 'ch3151',
+        email: 'engineering-physics',
+        year: '2nd year',
+    },
+    {
+        id: '3',
+        dp: icons.subject,
+        name: 'mh3151',
+        email: 'engineering-physics',
+        year: '3rd year',
+    },
+    {
+        id: '4',
+        dp: icons.subject,
+        name: 'cl3152',
+        email: 'engineering-physics',
+        year: '4th year',
+    },
+    {
+        id: '5',
+        dp: icons.subject,
+        name: 'tl3151',
+        email: 'engineering-physics',
+        year: '1st year',
+    },
 ];
