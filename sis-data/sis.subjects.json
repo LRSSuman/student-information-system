@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "661fbc6071a3b798cdf7eac6"
+  },
+  "subCode": "CS3421",
+  "subName": "Theory of Computation",
+  "year": "1st",
+  "file": "file_1713355872098.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fdc543b56e4932f9eb6e3"
+  },
+  "subCode": "CS3422",
+  "subName": "Artifical Intelligence and Machine Learning",
+  "year": "2nd",
+  "file": "file_1713364052084.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fdc793b56e4932f9eb6e5"
+  },
+  "subCode": "CS3423",
+  "subName": "Introduction to Operating System",
+  "year": "2nd",
+  "file": "file_1713364089852.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fdc9f3b56e4932f9eb6e7"
+  },
+  "subCode": "CS3424",
+  "subName": "Database Management System",
+  "year": "3rd",
+  "file": "file_1713364127021.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fddbf3b56e4932f9eb6e9"
+  },
+  "subCode": "CS3425",
+  "subName": "Compiler Design",
+  "year": "4th",
+  "file": "file_1713364415804.pdf",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fddf23b56e4932f9eb6eb"
+  },
+  "subCode": "CS3426",
+  "subName": "Introduction to Python",
+  "year": "1st",
+  "file": "file_1713368988588.pdf",
+  "__v": 0
+}]

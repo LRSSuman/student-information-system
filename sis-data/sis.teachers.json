@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "661eb0f8607f876a4cd3ce0e"
+  },
+  "Image": "file_1713287416156.jpg",
+  "name": "arnold",
+  "department": "cse",
+  "role": "HOD",
+  "experience": "7",
+  "totalSubjects": "1",
+  "gender": "male",
+  "dob": "1992-12-02",
+  "email": "arnold@gmail.com",
+  "mobile": "8739042871",
+  "attendance": "18/25",
+  "password": "arnold@123",
+  "timetable": {
+    "monday": {
+      "first": "cs3421",
+      "fifth": "",
+      "fourth": "",
+      "second": "",
+      "sixth": "",
+      "third": ""
+    },
+    "tuesday": {
+      "first": "",
+      "second": "",
+      "third": "cs3421",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "wednesday": {
+      "first": "",
+      "second": "cs3421",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "thursday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "cs3421",
+      "sixth": ""
+    },
+    "friday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "cd3421",
+      "fifth": "",
+      "sixth": ""
+    }
+  },
+  "subList": [
+    "Theory of Computation (CS3421) - second year"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661eb187607f876a4cd3ce10"
+  },
+  "Image": "file_1713287559500.jpg",
+  "name": "stark",
+  "department": "cse",
+  "role": "staff",
+  "experience": "4",
+  "totalSubjects": "2",
+  "gender": "male",
+  "dob": "1995-12-02",
+  "email": "stark@gmail.com",
+  "mobile": "8739502871",
+  "attendance": "18/25",
+  "password": "stark@123",
+  "timetable": {
+    "monday": {
+      "first": "",
+      "second": "CS3422",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "tuesday": {
+      "first": "",
+      "second": "",
+      "third": "CS3423",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "wednesday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": "CS3422"
+    },
+    "thursday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "friday": {
+      "first": "CS3423",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    }
+  },
+  "subList": [
+    "Artifical Intelligence and Machine Learinng (CS3422) - second year",
+    "Introduction to Operating System (CS3423) - second year"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661eb194607f876a4cd3ce12"
+  },
+  "Image": "file_1713287572950.jpg",
+  "name": "scarlett",
+  "department": "cse",
+  "role": "staff",
+  "experience": "4",
+  "totalSubjects": "1",
+  "gender": "female",
+  "dob": "1996-12-02",
+  "email": "scarlett@gmail.com",
+  "mobile": "8739042871",
+  "attendance": "18/25",
+  "password": "scarlett@123",
+  "timetable": {
+    "monday": {
+      "first": "",
+      "second": "CS3424",
+      "third": "",
+      "fourth": "CS3424",
+      "fifth": "",
+      "sixth": ""
+    },
+    "tuesday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "CS3424",
+      "fifth": "",
+      "sixth": ""
+    },
+    "wednesday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "CS3424",
+      "sixth": ""
+    },
+    "thursday": {
+      "first": "CS3424",
+      "second": "",
+      "third": "",
+      "fourth": "",
+      "fifth": "",
+      "sixth": ""
+    },
+    "friday": {
+      "first": "",
+      "second": "",
+      "third": "",
+      "fourth": "CS3424",
+      "fifth": "",
+      "sixth": ""
+    }
+  },
+  "subList": [
+    "Database Management System (CS3424) - third year"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661eb19e607f876a4cd3ce14"
+  },
+  "Image": "file_1713287582728.jpg",
+  "name": "jenifer",
+  "department": "cse",
+  "role": "staff",
+  "experience": "4",
+  "totalSubjects": "2",
+  "gender": "female",
+  "dob": "1996-12-02",
+  "email": "jenifer@gmail.com",
+  "mobile": "8736042871",
+  "attendance": "18/25",
+  "password": "jenifer@123",
+  "timetable": {
+    "monday": {
+      "fifth": "CS3425",
+      "sixth": "CS3426"
+    },
+    "tuesday": {
+      "third": "CS3425",
+      "fourth": "CS3426"
+    },
+    "wednesday": {
+      "sixth": "CS3426"
+    },
+    "thursday": {
+      "first": "CS3425"
+    },
+    "friday": {
+      "sixth": "CS3426"
+    }
+  },
+  "subList": [
+    "Compiler Design (CS3425) - fourth year",
+    "Programming in Python (CS3426) - first year"
+  ],
+  "__v": 0
+}]

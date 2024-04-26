@@ -1,0 +1,202 @@
+[
+    {
+        "monday": {
+            "first": "cs3421",
+            "second": "cs3422",
+            "third": "cs3423",
+            "fourth": "cs3424",
+            "fifth": "cs3425",
+            "sixth": "cs3426"
+        },
+        "tuesday": {
+            "first": "cs3421",
+            "second": "cs3422",
+            "third": "cs3423",
+            "fourth": "cs3424",
+            "fifth": "cs3425",
+            "sixth": "cs3426"
+        },
+        "wednesday": {
+            "first": "cs3421",
+            "second": "cs3422",
+            "third": "cs3423",
+            "fourth": "cs3424",
+            "fifth": "cs3425",
+            "sixth": "cs3426"
+        },
+        "thursday": {
+            "first": "cs3421",
+            "second": "cs3422",
+            "third": "cs3423",
+            "fourth": "cs3424",
+            "fifth": "cs3425",
+            "sixth": "cs3426"
+        },
+        "friday": {
+            "first": "cs3421",
+            "second": "cs3422",
+            "third": "cs3423",
+            "fourth": "cs3424",
+            "fifth": "cs3425",
+            "sixth": "cs3426"
+        },
+        "subjectList": [
+            "Theory of Computation(CS3421) - Arnold",
+            "Artifical Intelligence and Machine Learning(CS3422) - Stark",
+            "Introduction to Operating System(CS3423) - Stark",
+            "Database Management System(CS3424) - Scarlett",
+            "Compiler Design(CS3425) - Jenifer",
+            "Introduction to Python(CS3426) - Jenifer"
+        ]
+    },
+    {
+        "monday": {
+            "first": "cs4321",
+            "second": "cs4322",
+            "third": "cs4323",
+            "fourth": "cs4324",
+            "fifth": "cs4325",
+            "sixth": "cs4326"
+        },
+        "tuesday": {
+            "first": "cs4321",
+            "second": "cs4322",
+            "third": "cs4323",
+            "fourth": "cs4324",
+            "fifth": "cs4325",
+            "sixth": "cs4326"
+        },
+        "wednesday": {
+            "first": "cs4321",
+            "second": "cs4322",
+            "third": "cs4323",
+            "fourth": "cs4324",
+            "fifth": "cs4325",
+            "sixth": "cs4326"
+        },
+        "thursday": {
+            "first": "cs4321",
+            "second": "cs4322",
+            "third": "cs4323",
+            "fourth": "cs4324",
+            "fifth": "cs4325",
+            "sixth": "cs4326"
+        },
+        "friday": {
+            "first": "cs4321",
+            "second": "cs4322",
+            "third": "cs4323",
+            "fourth": "cs4324",
+            "fifth": "cs4325",
+            "sixth": "cs4326"
+        },
+        "subjectList": [
+            "Theory of Computation(CS4321) - Arnold",
+            "Artifical Intelligence and Machine Learning(CS4322) - Stark",
+            "Introduction to Operating System(CS4323) - Stark",
+            "Database Management System(CS4324) - Scarlett",
+            "Compiler Design(CS4325) - Jenifer",
+            "Introduction to Python(CS4326) - Jenifer"
+        ]
+    },
+    {
+        "monday": {
+            "first": "cs5421",
+            "second": "cs5422",
+            "third": "cs5423",
+            "fourth": "cs5424",
+            "fifth": "cs5425",
+            "sixth": "cs5426"
+        },
+        "tuesday": {
+            "first": "cs5421",
+            "second": "cs5422",
+            "third": "cs5423",
+            "fourth": "cs5424",
+            "fifth": "cs5425",
+            "sixth": "cs5426"
+        },
+        "wednesday": {
+            "first": "cs5421",
+            "second": "cs5422",
+            "third": "cs5423",
+            "fourth": "cs5424",
+            "fifth": "cs5425",
+            "sixth": "cs5426"
+        },
+        "thursday": {
+            "first": "cs5421",
+            "second": "cs5422",
+            "third": "cs5423",
+            "fourth": "cs5424",
+            "fifth": "cs5425",
+            "sixth": "cs5426"
+        },
+        "friday": {
+            "first": "cs5421",
+            "second": "cs5422",
+            "third": "cs5423",
+            "fourth": "cs5424",
+            "fifth": "cs5425",
+            "sixth": "cs5426"
+        },
+        "subjectList": [
+            "Theory of Computation(CS5421) - Arnold",
+            "Artifical Intelligence and Machine Learning(CS5422) - Stark",
+            "Introduction to Operating System(CS5423) - Stark",
+            "Database Management System(CS5424) - Scarlett",
+            "Compiler Design(CS5425) - Jenifer",
+            "Introduction to Python(CS5426) - Jenifer"
+        ]
+    },
+    {
+        "monday": {
+            "first": "cs6521",
+            "second": "cs6522",
+            "third": "cs6523",
+            "fourth": "cs6524",
+            "fifth": "cs6525",
+            "sixth": "cs6526"
+        },
+        "tuesday": {
+            "first": "cs6521",
+            "second": "cs6522",
+            "third": "cs6523",
+            "fourth": "cs6524",
+            "fifth": "cs6525",
+            "sixth": "cs6526"
+        },
+        "wednesday": {
+            "first": "cs6521",
+            "second": "cs6522",
+            "third": "cs6523",
+            "fourth": "cs6524",
+            "fifth": "cs6525",
+            "sixth": "cs6526"
+        },
+        "thursday": {
+            "first": "cs6521",
+            "second": "cs6522",
+            "third": "cs6523",
+            "fourth": "cs6524",
+            "fifth": "cs6525",
+            "sixth": "cs6526"
+        },
+        "friday": {
+            "first": "cs6521",
+            "second": "cs6522",
+            "third": "cs6523",
+            "fourth": "cs6524",
+            "fifth": "cs6525",
+            "sixth": "cs6526"
+        },
+        "subjectList": [
+            "Theory of Computation(CS6521) - Arnold",
+            "Artifical Intelligence and Machine Learning(CS6522) - Stark",
+            "Introduction to Operating System(CS6523) - Stark",
+            "Database Management System(CS6524) - Scarlett",
+            "Compiler Design(CS6525) - Jenifer",
+            "Introduction to Python(CS6526) - Jenifer"
+        ]
+    }
+]

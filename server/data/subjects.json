@@ -1,0 +1,38 @@
+[
+    {
+        "subCode": "CS3421",
+        "subName": "Theory of Computation",
+        "year": "1st",
+        "file": "file_1713355872098.pdf"
+    },
+    {
+        "subCode": "CS3422",
+        "subName": "Artifical Intelligence and Machine Learning",
+        "year": "2nd",
+        "file": "file_1713364052084.pdf"
+    },
+    {
+        "subCode": "CS3423",
+        "subName": "Introduction to Operating System",
+        "year": "2nd",
+        "file": "file_1713364089852.pdf"
+    },
+    {
+        "subCode": "CS3424",
+        "subName": "Database Management System",
+        "year": "3rd",
+        "file": "file_1713364127021.pdf"
+    },
+    {
+        "subCode": "CS3425",
+        "subName": "Compiler Design",
+        "year": "4th",
+        "file": "file_1713364415804.pdf"
+    },
+    {
+        "subCode": "CS3426",
+        "subName": "Introduction to Python",
+        "year": "1st",
+        "file": "file_1713368988588.pdf"
+    }
+]

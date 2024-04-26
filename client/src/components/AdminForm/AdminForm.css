@@ -1,0 +1,325 @@
+.admin-form-page {
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+}
+
+.admin-data-form {
+    width: 100%;
+    height: 100%;
+    max-height: 798px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    background: var(--section);
+}
+
+.admin-form-heading {
+    position: relative;
+    padding: 20px 0;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--white);
+    background: var(--sky-blue);
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.admin-form {
+    margin: auto;
+    border: 1px solid var(--font-light);
+    border-top-color: var(--white);
+    border-bottom-color: var(--white);
+    width: 100%;
+    max-height: 85%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.form-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-img {
+    position: relative;
+    right: 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.form-img img {
+    object-fit: cover;
+}
+
+.student-form {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    gap: 10px;
+}
+
+.student-form-first {
+    /* width: 50%; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.student-form-second {
+    /* width: 50%; */
+    margin-right: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.student-form input {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 15px;
+    background: var(--search-bar);
+    outline: none;
+    font-size: 18px;
+}
+
+label {
+    font-size: 18px;
+    color: var(--font-bold);
+    font-weight: bold;
+}
+
+.admin-submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.admin-submit {
+    width: 160px;
+    color: var(--font-bold);
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background: var(--sky-blue);
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 260px;
+    transition: 0.5s;
+}
+
+.img-bdr {
+    border: 2px solid black;
+}
+
+.timetable-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timetable-form-heading {
+    font-size: 35px;
+}
+
+.label {
+    font-size: 18px;
+    color: var(--font-bold);
+    font-weight: bold;
+}
+
+.timetable-form-input {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.timetable-form-input > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.timetable-form input {
+    padding: 5px;
+    width: 170px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 8px;
+    background: var(--search-bar);
+    outline: none;
+    font-size: 18px;
+}
+
+.subject-details-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.subject-details-form input {
+    margin-left: 5px;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 8px;
+    background: var(--search-bar);
+    outline: none;
+    font-size: 18px;
+}
+
+.subject-detail-add-btn {
+    margin-left: 5px;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+    background: #cfecf6;
+    background: var(--sky-blue);
+    font-size: 15px;
+    color: var(--font-bold);
+    cursor: pointer;
+}
+
+.subject-detail-form-list {
+    margin-top: 20px;
+    font-size: 18px;
+    color: var(--font-bold);
+}
+
+.subject-detail-form-list li {
+    margin-top: 10px;
+}
+
+/* .admin-teacher-form {
+    width: 100%;
+    height: 100%;
+    max-height: 798px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    background: var(--section);
+} */
+
+.admin-teacher-form {
+    margin: auto;
+    border: 1px solid var(--font-light);
+    border-top-color: var(--white);
+    border-bottom-color: var(--white);
+    width: 100%;
+    max-height: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.admin-teacher-submit {
+    margin-top: 15px;
+    width: 160px;
+    color: var(--font-bold);
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background: var(--sky-blue);
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 100px;
+    transition: 0.5s;
+}
+.subject-detail-add-btn {
+    transition: 0.5s;
+}
+.subject-detail-add-btn:hover {
+    transform: scale(1.05);
+}
+
+.admin-teacher-submit:hover {
+    transform: scale(1.05);
+}
+.admin-submit:hover {
+    transform: scale(1.05);
+}
+
+.form-img-subject {
+    position: relative;
+    right: 35px;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 100%; */
+    overflow: hidden;
+}
+
+/* .admin-subject-form {
+    height: 85%;
+} */
+
+.admin-subject-form {
+    margin: auto;
+    border: 1px solid var(--font-light);
+    border-top-color: var(--white);
+    border-bottom-color: var(--white);
+    width: 100%;
+    /* max-height: ; */
+    height: 644px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.admin-submit-subject {
+    width: 160px;
+    color: var(--font-bold);
+    padding: 13px;
+    border-radius: 15px;
+    border: none;
+    background: var(--sky-blue);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.admin-submit-subject:hover {
+    transform: scale(1.05);
+}
+
+.subject-form {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
